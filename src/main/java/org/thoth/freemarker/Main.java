@@ -65,6 +65,13 @@ public class Main {
         houses.add(new House("65824 Forest Road, Shiloh, IL 62220"));
         root.put("houses", houses);
         
+        // null
+        String iAmNull = null;
+        root.put("iAmNull", iAmNull);
+        
+        // not null
+        String iAmNotNull = "See...a value!";
+        root.put("iAmNotNull", iAmNotNull);
         
         // ---------------------- Get the template
         Template temp = cfg.getTemplate("test.ftlt");

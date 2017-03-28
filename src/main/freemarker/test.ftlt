@@ -15,5 +15,17 @@
     </#list>
     </ul>
   </p>
+
+   <#if iAmNull??>
+    <p>iAmNull has value ${iAmNull}</p>
+   <#else>
+    <p>iAmNull is NULL!</p>
+   </#if>
+
+   <#if iAmNotNull??>
+    <p>iAmNotNull has value ${iAmNotNull}</p>
+   <#else>
+    <p>iAmNotNull is NULL!</p>
+   </#if>
 </body>
 </html>
